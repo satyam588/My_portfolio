@@ -1,0 +1,455 @@
+@font-face
+{
+	font-family: lemon;
+	src:url('LemonMilk.otf');
+}
+
+@font-face
+{
+	font-family: gotham;
+	src:url('GothamRounded-Medium.otf');
+}
+
+@font-face
+{
+	font-family: gotham_light;
+	src:url('GothamRounded-Light.otf');
+}
+
+*
+{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+}
+
+a
+{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover
+{
+	color: #fff;
+}
+
+.navbar-default
+{
+	background: rgba(0,0,0,0);
+	border:none;
+}
+
+.hero_style
+{
+	background-image: url('heroic.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: table;
+	-webkit-width: 100%;
+        -moz-box-width:100%;
+        width: 100%;
+        -webkit-height: 100vh;
+        -moz-box-height:100vh;
+}
+
+
+.heroic_name
+{
+	font-family: lemon;
+	color: #FFF;
+	text-align: center;
+	display: table-row;
+	vertical-align: middle;
+}
+
+.fa-chevron-down
+{
+	position: absolute;
+	bottom: 5%;
+	color: #fff;
+	transform:scale(1.5,1); 
+	font-size: 35px;
+}
+
+.navbar-brand
+{
+	width: 70px;
+	height: 70px;
+	padding: none !important;
+}
+
+.thumbnail
+{
+	border: none;
+	background: rgba(0,0,0,0);
+}
+
+.img_front
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 113px;
+	height: 113px;
+}
+
+.img_front_mbl
+{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 95px;
+	height: 95px;
+}
+
+
+img
+{
+	width: 90%;
+	position: relative;
+}
+
+.cap_skill
+{
+	font-family: lemon;
+	font-size: 20px;
+	color: #000c26;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin: -20px 0px 0px 0px;
+}
+
+.about_section
+{
+	background-color: #000c26;
+	margin: 50px 0px 0px 0px;
+	background-position: fixed;
+	overflow: hidden;
+}
+
+.proile_pic
+{
+	width: 270px;
+	height: 280px;
+}
+
+.abt_headng
+{
+	color: #fff;
+	position: relative;
+	font-weight: normal;
+}
+
+.bullets
+{
+	width: 22px;
+	height: 22px;
+}
+
+
+table tr td p
+{
+	color: #000c26;
+	font-size: 15px;
+	font-family: lemon;
+}
+
+.my_work
+{
+	color: #000c26;
+	text-align: center;
+	font-family: lemon;
+
+}
+
+.btn-default
+{
+	border: none;
+	background-color: #000c26;
+	color: #fff;
+	border-radius: 0;
+	font-family: gotham_light;
+	font-size: 16px;
+	padding: 10px 25px 10px 25px;
+	transition: 0.5s;
+}
+
+.btn-default:hover
+{
+	background-color: #052773;
+	color: #fff;
+}
+
+.work_section
+{
+	background-image: url('back_work.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+
+.resume_section
+{
+	background-color: #000c26;
+	margin: 30px 0px 0px 0px;
+	padding: 0px 0px 30px 0px;
+}
+
+.innr_cntnt
+{
+	color: #fff;
+	font-family: gotham_light;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.innr_cntnt_2
+{
+	color: #fff;
+	font-family: gotham_light;
+	font-size: 25px;
+}
+
+.rsm_btn
+{
+	float: right;
+	background-color: #052773;
+	margin: 25px 0px 25px 0px;
+	padding: 13px 45px 13px 45px;
+	font-family: gotham_light;
+	border-bottom: 3px solid rgba(0,0,0,0);
+}
+
+.rsm_btn_xs
+{
+	background-color: #052773;
+	margin: 25px 0px 25px 0px;
+	padding: 13px 45px 13px 45px;
+	font-family: gotham_light;
+	border-bottom: 3px solid rgba(0,0,0,0);
+}
+
+.rsm_btn:hover
+{
+	border-bottom: 3px solid #4a65a0;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.innr_box
+{
+	margin: 30px 0px 30px 0px;
+	padding: 10px 0px 10px 0px;
+}
+
+.contct_section
+{
+	background-image: url('back_work.png');
+	background-position: fixed;
+}
+
+.cntct_heading
+{
+	color: #000c26;
+	text-align: center;
+	font-family: lemon;
+}
+
+.box_contct
+{
+	margin: 40px 0px 0px 0px;
+}
+
+.cntct_inner
+{
+	font-family: gotham_light;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.email_bullets
+{
+	width: 20px;
+	height: 20px;
+}
+
+.mbl_bullets
+{
+	width: 20px;
+	height: 20px;
+}
+
+.email
+{
+	color: #000c26;
+	font-family: gotham_light;
+}
+
+.mbl
+{
+	color: #000c26;
+	font-family: gotham_light;
+}
+
+td,tr
+{
+	border: none !important;
+}
+
+.form-control
+{
+	border-radius: 0px;
+	border-top: 0px;
+	border-left: none;
+	border-right: none;
+	outline: none !important;
+	height: 40px;
+	background: rgba(0,0,0,0); 
+	background-color: rgba(0,0,0,0);
+	box-shadow: none;
+	border-bottom: 2px solid #052773;
+	font-family: gotham_light;
+	font-weight: bold;
+}
+
+.msg
+{
+	margin: 25px 0px 0px 0px;
+}
+
+.btn_sbmt
+{
+	border: none;
+	background-color: #052773;
+	color: #fff;
+	border-radius: 0;
+	font-family: gotham_light;
+	font-size: 16px;
+	padding: 12px 55px 12px 55px;
+	transition: 0.5s;
+	float: right;
+	margin: 40px 0px 0px 0px;
+}
+
+.btn_sbmt:hover
+{
+	background-color: #000c26;
+}
+
+.footer
+{
+	background-color: #000c26;
+	margin: 30px 0px 0px 0px;
+}
+
+.footer_contnt
+{
+	color: #7aa3ff;
+	font-size: 25px;
+	padding: 20px 0px 20px 0px;
+	font-family: gotham_light;
+}
+
+.copyright
+{
+	float: left;
+	font-size: 14px;
+	padding: 10px 0px 0px 0px;
+}
+
+.socials_box
+{
+	float: right;
+}
+
+.socials
+{
+	padding: 0px 10px 0px 10px;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-github:hover
+{
+	transition: 0.3s;
+	color: #fff;
+	cursor: pointer;
+}
+
+i
+{
+	color: #7aa3ff;
+}
+
+
+/*.float_btn
+{
+	position: fixed;
+	bottom: 4%;
+	right: 4%;
+	display: none;
+}
+
+.fa-chevron-circle-up
+{
+	text-shadow: 0px 0px 15px #000c26; 
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.fa-chevron-circle-up:hover
+{ 
+	opacity: 1;
+	transform: rotate(360deg); 
+}*/
+
+.nav_xs
+{
+	list-style: none;
+	font-family: gotham_light;
+	margin: 25px 0px 0px 0px;
+	padding: 0px;
+	float: right;
+}
+
+.nav_xs_1
+{
+	display: inline-block;
+	padding: 0px 11px 3px 11px;
+	border-bottom: 1px solid #000c26;
+	transition: 0.5s;
+}
+
+.nav_xs_1:hover
+{
+	border-bottom: 1px solid #fff;
+}
+
+.fa-laptop, .fa-mobile, .fa-wordpress-simple, .paint_brush
+{
+    font-size: 80px;
+    margin: 30px 0px 0px 0px;
+    color: #000c26;
+}
+
+.fa-wordpress
+{
+	position: absolute;
+	font-size: 90px;
+	color: #000c26;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.paint_brush_lg
+{
+	position: absolute;
+	font-size: 90px;
+	color: #000c26;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
